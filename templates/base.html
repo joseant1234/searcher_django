@@ -19,16 +19,37 @@
       </div>
     </nav>
 
-
-    <h1 style="text-align: center">What do you want to search for on Searcher?</h1>
-    <div class="row">
-      <div class="col s4">
-        <div class="center">
-          <i class="large material-icons" style="color: #EE6E73">flash_on</i>
-          <p>Fast web scrapper</p>
-          <p class="light center">Scrape away right here with a beautiful interface.</p>
+    <div class="container">
+      <h1 style="text-align: center">What do you want to search for on Searcher?</h1>
+      <div class="row">
+        <div class="col s4">
+          <div class="center">
+            <i class="large material-icons" style="color: #EE6E73">flash_on</i>
+            <p>Fast web scrapper</p>
+            <p class="light center">Scrape away right here with a beautiful interface.</p>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="center">
+            <i class="large material-icons" style="color: orange">camera</i>
+            <p>Filter searches</p>
+            <p class="light center">We built in functionality to filter.</p>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="center">
+            <i class="large material-icons" style="color: blue">chrome_reader_mode</i>
+            <p>A much front-end to Searcher</p>
+            <p class="light center">This was built to search</p>
+          </div>
         </div>
       </div>
     </div>
+
+    {% block content %}
+    
+    {% endblock content %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>
